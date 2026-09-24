@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+_buildenv/
+
+# 本工具运行时产生的
+error.log
+_test/
+_testgame/
+
+# 旧版本草稿（不发布）
+_旧草稿/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 千万别提交：游戏存档和游戏本体
+*.save
+*.rpa
+*.rpyc
+*.rpyb
+*.xp3
+*.nsa
+saves/
