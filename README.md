@@ -2,6 +2,10 @@
 
 > Agent17 存档修改器 · 图形界面 · 免安装
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](#系统要求)
+[![Python](https://img.shields.io/badge/python-3.10%2B-3776ab.svg)](#从源码运行)
+
 一个专门给 **Agent17**（Ren'Py 引擎）做的存档修改器。图形界面，双击即用，不用装 Python，不用装任何依赖。
 
 支持修改金钱、背包物品数量、角色好感上限、技能等级、相册解锁等 **655 个存档变量**，内置四道安全闸，改坏了可以一键还原。
@@ -58,7 +62,7 @@ Agent17 的存档里一共有 **655 个变量**，其中 **508 个**是可以直
 
 ### 方式一：下载打包好的 exe（推荐）
 
-到 [Releases](../../releases) 页面下载 `太一卡厄斯天云_溯流之手.exe`，双击运行即可。**不需要安装任何东西。**
+到 [Releases](https://github.com/Tao6634/slg_commander66/releases) 页面下载 `太一卡厄斯天云_溯流之手.exe`，双击运行即可。**不需要安装任何东西。**
 
 > 首次启动会慢 2–4 秒（单文件 exe 要先解压到临时目录），之后就正常了。
 
@@ -202,6 +206,6 @@ A：那是自动存档。可以用右上角的筛选框切到「仅手动」。
 
 Windows-only, no installation required. Edits 655 save variables (money, inventory counts, character affection caps, skill levels, gallery unlocks, etc.) with automatic backup, integrity checks, and ECDSA re-signing.
 
-Download the `.exe` from [Releases](../../releases), or run from source with `启动.bat`.
+Download the `.exe` from [Releases](https://github.com/Tao6634/slg_commander66/releases), or run from source with `启动.bat`.
 
 Licensed under the [MIT License](LICENSE).
